@@ -2,7 +2,8 @@
 
 body {
   margin: 0;
-  background-color: #5f6674;
+  text-align: center;
+  background-color: rgb(186, 196, 209);
 }
 
 a {
@@ -21,6 +22,7 @@ select {
 label {
   width: 200px;
   display: block;
+  margin: 10px auto;
 }
 
 input,
@@ -28,7 +30,6 @@ textarea {
   width: 200px;
   padding: 10px;
   display: inline-block;
-  margin: 10px;
 }
 
 .Navbar {

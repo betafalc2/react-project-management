@@ -4,6 +4,7 @@ import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import Loader from "../components/Loader";
 import { API_URL } from "../config/api";
+import AddTask from "../components/AddTask";
 
 
 function ProjectDetailsPage(props) {
@@ -36,6 +37,8 @@ function ProjectDetailsPage(props) {
                     <p>{project.description}</p>
                 </>
             )}
+
+            <AddTask/>
 
             {project &&
                 project.tasks.map((task) => (
